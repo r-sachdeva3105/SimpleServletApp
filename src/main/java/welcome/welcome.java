@@ -22,7 +22,7 @@ public class welcome extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		out.print("<html><body>");
-		out.print("<h1>Welcome to J2EE Web Components Lab</h1>");
+		out.print("<h1>My first servlet application</h1>");
 		out.print("</body></html>");
 	}
 
